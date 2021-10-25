@@ -1,0 +1,55 @@
+.link1 a:hover{
+    color: lightblue;
+    font-weight: bold;
+}
+.link2 a:active{
+    color: red;
+    font-style: oblique;
+}
+.link3 a:visited{
+    color: yellow;
+}
+.tekstveld :focus{
+    color: green;
+    font-size: 20px;
+}
+.link3{
+    padding-bottom: 15px;
+}
+
+.menu{
+    background-color: darkblue;
+    width: 870px;
+    height: 50px;
+    font-size: 30px;
+}
+.menu ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    color: white;
+}
+.menu a{
+    margin-block-start: none;
+    margin: 200px;
+    margin-left:0;
+}
+.menu a:visited{
+    color: white;
+}
+.currentPage{
+    background-color: #6699CC;
+    height: 50px;
+}
+.currentPage:hover{
+    background-color: lightblue;
+}
+.menu li:hover{
+    background-color: lightblue;
+}
+input{
+    border: 1px solid black;
+}
+input:focus{
+    border: 3px solid #00FFFF;
+}
